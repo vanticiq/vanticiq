@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <rect width="800" height="120" fill="#0a0a0a"/>
+  
+  <!-- Teal rule left -->
+  <rect x="0" y="59" width="220" height="1" fill="#06B8A9" opacity="0.4"/>
+  
+  <!-- Wordmark -->
+  <text
+    x="400"
+    y="68"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="22"
+    font-weight="700"
+    letter-spacing="8"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="#ffffff"
+  >\\VANTICLAB</text>
+  
+  <!-- Teal rule right -->
+  <rect x="580" y="59" width="220" height="1" fill="#06B8A9" opacity="0.4"/>
+  
+  <!-- Teal dot accent -->
+  <circle cx="400" cy="95" r="2" fill="#06B8A9"/>
+</svg>
