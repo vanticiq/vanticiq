@@ -1,3 +1,5 @@
+![VanticLab](./vanticlab-banner.svg)
+
 # VanticLab
 
 We build software that makes AI work reliably for 
