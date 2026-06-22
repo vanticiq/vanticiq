@@ -14,39 +14,38 @@ VanticLab builds software that delivers **continuous operational diagnosis** for
 
 **[Vantic IQ](https://vanticiq.com)** — macOS menu-bar application. Maps how work actually moves (handoffs, switching, timing) using **workflow signals only** — never screen content, files, or keystrokes. Surfaces a **Friction Score (0–100)** when confidence thresholds are met and, over time, a **Diagnostic Report** with recoverable cost and ranked patterns in plain language.
 
-Engineering repository: private [`vantic`](https://github.com/vanticiq/vantic) (access on request).
+Product engineering is in a **private repository** (access on request).
 
 ---
 
-## Repositories
+## GitHub
 
-| Repository | Visibility | Purpose |
-|------------|------------|---------|
-| [vanticiq](https://github.com/vanticiq/vanticiq) | Public | This org profile |
-| [vantic](https://github.com/vanticiq/vantic) | Private | Product engineering monorepo |
-| [vantic-docs](https://github.com/vanticiq/vantic-docs) | Private | Governance and diligence stack |
-| [landing-page](https://github.com/vanticiq/landing-page) | Private | [vanticlab.com](https://vanticlab.com) marketing site |
-| [vantic-iq-ui](https://github.com/vanticiq/vantic-iq-ui) | Archived | Legacy UI — superseded by `vantic/src/` |
+This profile repository is the **only public repo** in the organisation. Engineering, governance, and marketing-site source are private.
 
-Full engineering map: [vantic README](https://github.com/vanticiq/vantic/blob/main/README.md) (private).
+| Surface | Visibility |
+|---------|------------|
+| **vanticiq** (this repo) | Public |
+| Product engineering | Private |
+| Governance documents | Private |
+| [vanticlab.com](https://vanticlab.com) marketing site | Published; source private |
 
 ---
 
-## Stack (company)
+## Stack (high level)
 
 | Area | Technology |
 |------|------------|
 | Product | macOS · Swift · SwiftUI · React · Vite (embedded shell) |
 | Backend | Supabase (AWS Sydney) |
-| API | Vercel serverless (`vantic/api/`) |
+| API | Vercel serverless |
 | Conversational | Anthropic Claude |
-| Marketing site | Next.js ([landing-page](https://github.com/vanticiq/landing-page)) |
+| Marketing site | Next.js · [vanticlab.com](https://vanticlab.com) |
 
 ---
 
 ## Privacy (after the value thesis)
 
-Vantic IQ is architecturally constrained: workflow signals and timing only at the observation boundary. Content-adjacent fields are hashed at ingestion; raw values do not leave the device. Sync targets Supabase on AWS `ap-southeast-2` only. Constitutional detail lives in the private engineering and governance repos.
+Vantic IQ is architecturally constrained: **workflow signals and timing only** — hashed at ingestion where required; raw content-adjacent values do not leave the device. Sync targets Supabase on AWS Sydney only. Detailed constitutional and engineering documentation is not public.
 
 ---
 
