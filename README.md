@@ -12,7 +12,7 @@ VanticLab builds software that delivers **continuous operational diagnosis** for
 
 ## Products
 
-**[Vantic IQ](https://vanticiq.com)** — macOS menu-bar application. Maps how work actually moves (handoffs, switching, timing) using **workflow signals only** — never screen content, files, or keystrokes. Surfaces a **Friction Score (0–100)** when confidence thresholds are met and, over time, a **Diagnostic Report** with recoverable cost and ranked patterns in plain language.
+**[Vantic IQ](https://vanticlab.com)** — macOS menu-bar application. Maps how work actually moves (handoffs, switching, timing) using **workflow signals only** — never screen content, files, or keystrokes. Surfaces a **Friction Score (0–100)** when confidence thresholds are met and, over time, a **Diagnostic Report** with recoverable cost and ranked patterns in plain language.
 
 Product engineering is in a **private repository** (access on request).
 
